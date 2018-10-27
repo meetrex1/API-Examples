@@ -19,7 +19,7 @@ Usage can be illustrated by the cURL example below. Up to 50 messages can be sen
 
 ## cURL
 
-<Rex username>, <password> and <token> should be replaced with the actual username, password and the token received.
+&lt;Rex username&gt;, &lt;password&gt; and &lt;token&gt; should be replaced with the actual username, password and the token received.
 
 ```shell
 curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" https://meetrex.com/token -d 'username=<Rex username>&password=<password>&grant_type=password'
