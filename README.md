@@ -23,7 +23,7 @@ The review-requests endpoint allows sending up to 50 messages at once. The API e
 - Phone - Your customer's mobile phone number. As the example shows, the phone number can be entered with or without extra characters. Email OR Phone is required.
 - Email - Your customer's email address. Email OR Phone is required.
 
-The response will include an HTTP status code:
+The response will be an HTTP status code:
 
 - Created: 201
 - Missing or expired token: 401
